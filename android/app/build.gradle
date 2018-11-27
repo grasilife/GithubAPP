@@ -164,6 +164,14 @@ android {
 }
 
 dependencies {
+    compile project(':realm')
+    compile project(':react-native-version-number')
+    compile project(':react-native-vector-icons')
+    compile project(':react-native-spinkit')
+    compile project(':react-native-image-crop-picker')
+    compile project(':react-native-i18n')
+    compile project(':react-native-gesture-handler')
+    compile project(':lottie-react-native')
     compile fileTree(dir: "libs", include: ["*.jar"])
     implementation project(':react-native-version-number')
     implementation project(':react-native-vector-icons')
